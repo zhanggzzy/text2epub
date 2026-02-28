@@ -1,0 +1,36 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Build / packaging artifacts
+build/
+dist/
+*.spec
+
+# Installer / temp outputs
+*.log
+*.tmp
+*.temp
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# App runtime outputs
+*.epub
